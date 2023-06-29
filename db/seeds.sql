@@ -1,41 +1,26 @@
 -- add a department
-INSERT INTO department(department_name)
+INSERT INTO department(name)
 VALUES  ("Human Resources").
-        ("Information Technology"),
-        ("Communications");
+        ("Management"),
+        ("Operations"),
+        ("Sales");
 
 -- add an role
-INSERT INTO role(title)
-VALUES  ("Manager", "$80,000", 'Human Resources' ),
-        ("Manager", "$90,000", 'Information Technology' ),
-        ("Manager", "$80,000", 'Communications' ),
-        ("Director", "$100,000", 'Human Resources' ),
-        ("Director", "$120,000", 'Information Technology' ),
-        ("Director", "$100,000", 'Communications' ),
-        ("Assistant", "$50,000", 'Human Resources' ),
-        ("Assistant", "$60,000", 'Information Technology' ),
-        ("Assistant", "$5,000", 'Communications' );
+INSERT INTO role(title, salary, department_id)
+VALUES  ("President", "$200,000", 1 ),
+        ("Secretary", "$60,000", 1),
+        ("HR Manager", "$80,000", 2),
+        ("Project Manager", "$100,000", 3 ),
+        ("Programmer", "$80,000", 3),
+        ("Sales Manager", "$80,000", 4 );
+        
 
 -- add an employee
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUES  ("John", "Doe",).
-        ("Information Technology"),
-        ("Communications");
-
-
-
-INSERT INTO book_prices (price)
-VALUES (1),
-       (2),
-       (5),
-       (10),
-       (15);
-
-INSERT INTO favorite_books (book_name, in_stock, book_price)
-VALUES ("The Great Gatsby", true, 1),
-       ("Huckleberry Finn", true, 3),
-       ("100 Years of Solitude", false, 5),
-       ("Things Fall Apart", false, 1),
-       ("Crime and Punishment", true, 2),
-       ("Moby Dick", true, 4),
-       ("Decameron", false, 1);
+VALUES  ("Peter", "Pan", 1, NULL ), 
+        ("Wendy", "Lewis", 1, 1 ),
+        ("Aubrey", "Wilson", 2, 1 ),
+        ("Chris", "King", 3, 1 ),
+        ("Carlos", "Sanchez", 3, 4 ),
+        ("Leslie", "Lee", 4, 1 );
+        
