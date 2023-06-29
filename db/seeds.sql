@@ -1,8 +1,8 @@
 -- add a department
 INSERT INTO department(name)
-VALUES  ("Human Resources").
-        ("Management"),
-        ("Operations"),
+VALUES  ("Management"),
+        ("Human Resources"),
+        ("Information Technology"),
         ("Sales");
 
 -- add an role
