@@ -1,21 +1,18 @@
--- add a department
 INSERT INTO department(name)
 VALUES  ("Management"),
         ("Human Resources"),
         ("Information Technology"),
         ("Sales");
 
--- add an role
 INSERT INTO role(title, salary, department_id)
-VALUES  ("President", "$200,000", 1 ),
-        ("Secretary", "$60,000", 1),
-        ("HR Manager", "$80,000", 2),
-        ("Project Manager", "$100,000", 3 ),
-        ("Programmer", "$80,000", 3),
-        ("Sales Manager", "$80,000", 4 );
+VALUES  ("President", 200000.00,  1 ),
+	("Secretary", 60000.00, 1),
+        ("HR Manager", 80000.00, 2),
+        ("Project Manager", 100000.00, 3 ),
+        ("Programmer", 80000.00, 3),
+        ("Sales Manager", 80000.00, 4 );
         
 
--- add an employee
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
 VALUES  ("Peter", "Pan", 1, NULL ), 
         ("Wendy", "Lewis", 1, 1 ),
