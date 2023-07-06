@@ -17,8 +17,8 @@ SO THAT I can organize and plan my business
 * Node.js
 * MySQL
 * Dependencies 
-* - Inquirer 8.2.5
-* - mysql2 3.4.5
+    - Inquirer 8.2.5
+    - mysql2 3.4.5
 
 
 # How to Install
