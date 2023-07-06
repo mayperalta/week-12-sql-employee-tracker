@@ -57,5 +57,3 @@ VALUES  ("Rosie", "Redd", 5, 1 )
 UPDATE employee
 SET role_id = 7
 WHERE id = 7;
-
-
