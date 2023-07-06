@@ -30,7 +30,7 @@ On the Visual Studio terminal do the following:
 * npm i inquirer@8.2.5
 * npm i mysql12@3.4.5
 
-On the MySQL Workbench
+On the MySQL Workbench, do the following:
 
 * execute schema.sql
 * execute seeds.sql
