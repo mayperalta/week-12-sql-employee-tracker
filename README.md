@@ -1,6 +1,6 @@
 # 12 SQL: Employee Tracker
 
-This application called Employee Tracker is a command-line application built from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+Employee Tracker API is a command-line application buit from scratch using Node.js, Inquirer, and MysQ is used to manage a company's database. 
 
 ## User Story
 
